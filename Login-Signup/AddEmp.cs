@@ -133,6 +133,7 @@ namespace Login_Signup
 
             SqlDataReader read = cmd2.ExecuteReader();
             bool flag = read.HasRows; 
+            
             con.Close();
             
             if (flag)
